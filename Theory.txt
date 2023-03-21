@@ -1,0 +1,41 @@
+Chapter 1 - Inception
+
+[1] what is emmet?
+
+=> emmet is toolkit for making better html and css workflows
+
+[2] Difference between a Library and Framework?
+
+=> let's take house as a metaphor for understanding Library and Framework ,
+    -> we have a home( our website or web app) ,
+    -> library is like going to shoping for get a furniture for your home,
+    -> Framework is like we get set of built in furniture for your home and you have to set your home appliances according to your furniture.
+
+=> The technical difference between a framework and library lies in a term called inversion of control.
+    -> When you use a library, you are in charge of the flow of the application. You are choosing when and where to call the library. -> When you use a framework, the framework is in charge of the flow. It provides some places for you to plug in your code, but it calls the code you plugged in as needed.
+
+[3] What is CDN? Why do we use it?
+
+=> CDNs involve a set of servers spread across an area.
+
+[4] Why is React known as React?
+
+=> The library was designed to “react” to changes in data ,The name “React” reflects this reactive nature of the library.
+
+[5] What is crossorigin in script tag?
+
+=> The crossorigin attribute is a CORS settings attribute. It controls, for scripts that are obtained from other origins, whether error information will be exposed.
+
+[6] What is diference between React and ReactDOM?
+
+=>  React -> The react package holds the react source for components, state, props and all the code that is react
+    ReactDOM -> The react-dom package as the name implies is the glue between React and the DOM,you will only use it for one single thing: mounting your application to the index.html file with ReactDOM.render().
+
+[7] What is difference between react.development.js and react.production.js files via CDN?
+
+=> react.development.js readable code and it is used for the development purposes,and react.production.js is bundled version of development code it's is not readable but it's bundled , minified and optimised for the production usage.
+
+[8] What is async and defer?
+
+=> https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.growingwiththeweb.com%2Fimages%2F2014%2F02%2F26%2Fasync-vs-defer-twitter.png&f=1&nofb=1&ipt=e7f9037ee1b14203a0ae30d0009e9001d98ab99990f48926b8f65692970e7aae&ipo=images
+
